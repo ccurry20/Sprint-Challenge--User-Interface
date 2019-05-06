@@ -66,6 +66,25 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    display: flex;
+    margin-top: -35px;
+    margin-left: 550px;
+    
+  } 
+
+  header nav a {
+    margin: 20px; 
+    margin-left: 70px;
+
+}
+
+header .logo {
+    display: flex;
+    margin-left: 430px;
+    margin-top: 10px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +131,126 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,6 +268,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -144,3 +284,83 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.menu-container {
+	display: flex; 
+	flex-direction: row;
+	width: 900px;
+	margin:auto; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.menu-container .item {
+	width: 410px;
+	height: 500px;
+	margin: 10px;
+    flex-wrap: wrap; 
+    margin-right: 30px; 
+    margin-left: 1px; 
+     
+	
+  }
+  .menu-container h2 {
+	font-family: 'Rubik', sans-serif;
+	 margin-top: 20px;
+	 
+  }
+
+  
+
+.menu-container .learn {
+     border-radius: 10px; 
+}
+
+.line {
+	border-bottom: 1px dotted;
+	width: 800px;
+}
+
+.line2 {
+	border-bottom: 1px dotted;
+    width: 370px;
+    margin-top: 10px; 
+}
+
+.line3 {
+	border-bottom: 1px dotted;
+    width: 370px;
+    margin-top: 25px; 
+}
+
+.line4 {
+	border-bottom: 1px dotted;
+    width: 370px;
+    margin-top: 25px; 
+}
+
+.line5 {
+	border-bottom: 1px dotted;
+    width: 370px;
+    margin-top: 25px; 
+}
+
+.menu-bottom h2 {
+ margin-top: -30px; 
+}
+
+.containerform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
